@@ -1,0 +1,12 @@
+// Kotlin
+
+class CategoryFragment : Fragment() {
+    private lateinit var binding: FragmentCategoryBinding
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        binding=FragmentCategoryBinding.inflate(layoutInflater)
+        return binding.root
+    }
+}
